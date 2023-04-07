@@ -12,15 +12,12 @@ function calculatorWorkPrice(event){
     let selectedWorkType = document.getElementById("worktype").value;
 
     let backEndPrice = document.getElementById("backend").innerText;
-    backEndPrice = parseFloat(backEndPrice);
     console.log(backEndPrice);
 
     let frontEndPrice = document.getElementById("frontend").innerText;
-    frontEndPrice = parseFloat(frontEndPrice);
     console.log(frontEndPrice);
 
     let projectAnalysisPrice = document.getElementById("projectanalysis").innerText;
-    projectAnalysisPrice = parseFloat(projectAnalysisPrice);
     console.log(projectAnalysisPrice);
 
     switch(selectedWorkType){
